@@ -33,7 +33,7 @@ def create_regions(multiworld: MultiWorld, player: int, options) -> None:
 
     menu = _make_region('Menu', player, multiworld)
 
-    all_regions = ALL_STAGE_REGIONS + ALL_BOSS_REGIONS + ALL_EX_REGIONS + ALL_LIME_REGIONS + ['Shop', 'Satan']
+    all_regions = ALL_STAGE_REGIONS + ALL_BOSS_REGIONS + ALL_EX_REGIONS + ALL_LIME_REGIONS + ['Shop']
 
     region_map: dict[str, Region] = {}
     for rname in all_regions:
